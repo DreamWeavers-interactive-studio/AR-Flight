@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: ce60b0b1d0d650e46808106a175b75df
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: COTPIT_M
+    second: {fileID: 2100000, guid: ddc07bb603d8c564c991b17ad5139635, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FULL_BODY_M
+    second: {fileID: 2100000, guid: 4d6e32457c448494ba7f1e21e0d31307, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HARDPOINTS_M
+    second: {fileID: 2100000, guid: 01d60b5ff15c79f459eb669a45f0c4ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INSIDE_PLANE_m
+    second: {fileID: 2100000, guid: 54f3e16e8d933704ebe24d4a8556660b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: INSTRUMENTCLUSTER_M
+    second: {fileID: 2100000, guid: e8a81c2258865554fa7290d18fed0206, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: JET_ENGINE_M
+    second: {fileID: 2100000, guid: f693c9535817eb74d87d2776815c0fcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LANDING_GEAR_M
+    second: {fileID: 2100000, guid: 5e0229cf01cc58641abe559d0a350789, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MISSILES_M
+    second: {fileID: 2100000, guid: fd3dc27c646f02b4d8ab45c767611698, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 4afe5c6b81c3f7b4fbae24b25bce0033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PILOT_SEAT_M
+    second: {fileID: 2100000, guid: 635dc0e04c8174a42b7dfd33eda9dca0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: STABLOGERS_M
+    second: {fileID: 2100000, guid: fa5eec1b8e72f46458c172193916077f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cotmit_Diffuse_2_map
+    second: {fileID: 2800000, guid: ae608c0e49a010444b319fa9810d3ec8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cotmit_Metallic_map
+    second: {fileID: 2800000, guid: ab786da396fecae4f905d97b37209568, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cotmit_Normal_map
+    second: {fileID: 2800000, guid: 64510914a981cc349a7017b7fe3db827, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cotmit_Roughness_map
+    second: {fileID: 2800000, guid: 63f29bfa9b13d5448a27340cbcf495a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cotmit_Spacular_map
+    second: {fileID: 2800000, guid: 7c3e091f1c6c4194484fccb18a2c81d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Hardpoint_rougness_map
+    second: {fileID: 2800000, guid: 55244221070eee441ba7c6ff5af97722, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Hardpoints_Diffuse_map
+    second: {fileID: 2800000, guid: 48caf8d9c648ff7439b39f38d3b120ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Hardpoints_Normal_map
+    second: {fileID: 2800000, guid: 43c0a88dd2c1e394b9fc4f0dddc3f6ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Inside_panele_Diffuse_map.002
+    second: {fileID: 2800000, guid: 01819208fc6dc4a4a9fdf2651255be84, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Inside_panele_Roughnes_map
+    second: {fileID: 2800000, guid: d7ff78c98e66a5e4784c13ce80c2e421, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Inside_panele_Specular_map
+    second: {fileID: 2800000, guid: 558ff967df0154646a3935f47d90e8ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Instrumentclustar_Diffuse_map
+    second: {fileID: 2800000, guid: 55686c249cc7b394eac02cb9cd860763, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Instrumentclustar_Emit_map
+    second: {fileID: 2800000, guid: 7dc56060df341df4db546948c7bff068, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Instrumentclustar_Normal_map
+    second: {fileID: 2800000, guid: 09db803bb9219194eb72d31fcd4ca1b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Instrumentclustar_Roughness_map
+    second: {fileID: 2800000, guid: 2f48a48208db355448b451549ff16cbf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Instrumentclustar_Specular_map
+    second: {fileID: 2800000, guid: 2847550c2fe7eb24787e12b39513b516, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jet_Engine_Diffuse_map
+    second: {fileID: 2800000, guid: f37c8f6494565124888de1fdf5074e91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jet_Engine_Emit_map
+    second: {fileID: 2800000, guid: 6b183ef8dac1d1e479a8c253221a9172, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jet_Engine_Metallic_map
+    second: {fileID: 2800000, guid: 7244fdb03aebe6e449a2424f2f057ce9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jet_Engine_Normal_map
+    second: {fileID: 2800000, guid: 9949111d8ab4635489cd38eaad5dd484, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jet_Engine_Roughness_map
+    second: {fileID: 2800000, guid: 39ebd39d1163bea4ca2ba72f3195c7fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Jet_Engine_Speculer_map
+    second: {fileID: 2800000, guid: ead89bdc7de8cb64b822575a325209ae, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Landing_gear_Diffuse_map
+    second: {fileID: 2800000, guid: 3bb50ff2b5b4faa47ab68ce2097e85f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Landing_gear_Metallic_map
+    second: {fileID: 2800000, guid: a6233dbbd6d87b44bada36b81318975c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Landing_gear_Normal_map
+    second: {fileID: 2800000, guid: f1ea18089adc9be47b633266dbf8e6f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Landing_gear_Roughness_map
+    second: {fileID: 2800000, guid: 380bbec19baffe9489ae1219a6bc90a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Landing_gear_Specular_map
+    second: {fileID: 2800000, guid: 785d4588ee1899a4e95eace4817dc63e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MIssiles_Diffuse_map
+    second: {fileID: 2800000, guid: d8925d69dc3ae554e8805e750f1a9754, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: MIssiles_Roughness_map
+    second: {fileID: 2800000, guid: 7a4b5863785d31b47a73f510f72a0f67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Missiles_Normal_map
+    second: {fileID: 2800000, guid: a345e4e419d31f345aa06214ea10a7be, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Missiles_Speculer_map.001
+    second: {fileID: 2800000, guid: 264f86cf60c4882428f109df2c124432, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ORCA_FULL_BODY_Normal_map
+    second: {fileID: 2800000, guid: 80bff346a5f44aa468eaaeffe36dcc19, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ORCA_Full_body_Diffuse_map_
+    second: {fileID: 2800000, guid: 732f4ad4d6ac9574fa5a993105ff2851, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ORCA_Full_body_Roughness_map
+    second: {fileID: 2800000, guid: bcb932aba7b4f164f9d4f87be3224e9c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ORCA_Full_body_Speculer_map
+    second: {fileID: 2800000, guid: 27065a3a9b003c7458a0dab3b7eae149, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pilot_Seats_Diffuse_map
+    second: {fileID: 2800000, guid: ec4e6c0c1a51a5940a23d1cfc6c9d99d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pilot_Seats_Roughness_map
+    second: {fileID: 2800000, guid: 43cdde34faead2941b7349a40987da96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pilot_Seats_Specular_map
+    second: {fileID: 2800000, guid: 8c44242ddbf6eb24da855240a184e109, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Poilot_seat_Normsl_map
+    second: {fileID: 2800000, guid: ad73aedfb088b5e4fa9189415fcc05f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stabaligers_Diffuse_map
+    second: {fileID: 2800000, guid: 493d8cd978b49ba42afedc3d11732ae1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stabaligers_Roughness_map
+    second: {fileID: 2800000, guid: 3aca31569a74d364388a631575928621, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stabligers_Normal_map
+    second: {fileID: 2800000, guid: b6f97a64676961d4d8f171126766bae6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: hardpoint_Speculer_map
+    second: {fileID: 2800000, guid: 5fbd337eb1d18e74d9d9c9e460af9ac6, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
