@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 549587383600390098}
   m_Layer: 0
-  m_Name: SpawnEnemi
+  m_Name: SpawnEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 4257373160357905898}
   - component: {fileID: 1613519319343666223}
   - component: {fileID: 4170567031504274269}
+  - component: {fileID: 605873410606831248}
   m_Layer: 0
   m_Name: Portal
   m_TagString: Untagged
@@ -147,6 +148,28 @@ VFXRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!95 &605873410606831248
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2688683565859777939}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b7d9299f42fc22042bc35c9184fd06c2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2952677981386226274
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,7 +307,7 @@ Transform:
   m_GameObject: {fileID: 7849318368241615913}
   serializedVersion: 2
   m_LocalRotation: {x: 0.014856393, y: 0.7007519, z: 0.7130902, w: -0.0151179945}
-  m_LocalPosition: {x: 21.19, y: 20.11, z: 19.96}
+  m_LocalPosition: {x: 21.3, y: 20.2, z: 19.1}
   m_LocalScale: {x: 99.99997, y: 99.999985, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
