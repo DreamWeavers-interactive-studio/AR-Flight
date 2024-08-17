@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 549587383600390098}
   - component: {fileID: 5298997408353793735}
+  - component: {fileID: -8846658082627071483}
   m_Layer: 0
   m_Name: SpawnEnemy
   m_TagString: Untagged
@@ -50,6 +51,18 @@ MonoBehaviour:
   portalE: {fileID: 2114123483922767942}
   portal: {fileID: 2688683565859777939}
   invisibilty: {fileID: 2952677981386226274}
+--- !u!114 &-8846658082627071483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2429692027887469367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c46e41e14a56d14db1b115fa9890689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2688683565859777939
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +320,7 @@ GameObject:
   - component: {fileID: 2114123483922767942}
   - component: {fileID: 3989766920760289774}
   - component: {fileID: 5994220234271307170}
+  - component: {fileID: 2370640353475106223}
   m_Layer: 0
   m_Name: Fighter_01
   m_TagString: Untagged
@@ -407,3 +421,15 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2370640353475106223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7849318368241615913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c46e41e14a56d14db1b115fa9890689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

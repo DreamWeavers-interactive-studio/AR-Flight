@@ -19,8 +19,9 @@ public class EnemyWaveManager : MonoBehaviour
     {
         while (true)
         {
-        SpawnEnemyWave();
-        yield return new WaitForSeconds(waveInterval);
+            SpawnEnemyWave();
+
+            yield return new WaitForSeconds(waveInterval);
         }
     }
 
@@ -29,6 +30,7 @@ public class EnemyWaveManager : MonoBehaviour
         for (int i = 0; i < waveData.numberOfEnemies; i++)
         {
             GameObject randomEnemyPrefab = waveData.enemyPrefabs[Random.Range(0, waveData.enemyPrefabs.Length)];
+
             Vector3 randomPosition = new Vector3(
                 Random.Range(-waveData.spawnArea.x, waveData.spawnArea.x),
                 Random.Range(-waveData.spawnArea.y, waveData.spawnArea.y),
